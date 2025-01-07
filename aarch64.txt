@@ -1,0 +1,15 @@
+[binaries]
+c = '/home/tianyi/x-tools/aarch64-rpi4-linux-gnu_aarch64_gcc14.2.0/bin/aarch64-rpi4-linux-gnu-gcc'
+cpp = '/home/tianyi/x-tools/aarch64-rpi4-linux-gnu_aarch64_gcc14.2.0/bin/aarch64-rpi4-linux-gnu-g++'
+ar = '/home/tianyi/x-tools/aarch64-rpi4-linux-gnu_aarch64_gcc14.2.0/bin/aarch64-rpi4-linux-gnu-ar'
+strip = '/home/tianyi/x-tools/aarch64-rpi4-linux-gnu_aarch64_gcc14.2.0/bin/aarch64-rpi4-linux-gnu-strip'
+pkg-config = '/usr/bin/pkg-config'
+
+[host_machine]
+system = 'linux'
+cpu_family = 'aarch64'
+cpu = 'aarch64'
+endian = 'little'
+
+[properties]
+pkg_config_libdir = '/home/tianyi/x-tools/staging/usr/openssl/lib/pkgconfig'
